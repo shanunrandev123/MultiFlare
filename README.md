@@ -13,5 +13,15 @@
 ![image](https://github.com/shanunrandev123/MultiFlare/assets/49170258/d85d11e5-07ae-42d9-bfff-02e38866857a)
 
 
+## Evaluation Metrics
+
+Primary metrics used for the Project is F1 micro and F1 macro. The Best-fit model has a F1 macro score of 0.459 and F1 micro of 0.39 on eval set
+
+### Modeling
+I trained 2 models - Pretrained resNet model and a custom CNN model. The Best fit is a Convolutional Neural Network with 7 convolutional layers. Every Conv2d layer is developed with a BatchNorm and a pooling layer. Some hyperparameters like activation function, batch sizes and learning rates were experimented with and optimized during the course of the project
+
+
+
+
 
 
